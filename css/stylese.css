@@ -1,4 +1,10 @@
 body {
 	background-color: #ffffff;
 }
-
+.row3 {
+	position: absolute;
+	width: 1128px;
+	height: 420px;
+	left: 156px;
+	top: 1224px;
+}
