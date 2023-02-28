@@ -1,8 +1,15 @@
 body {
-	background-color: #ffffff;
+	font-family: "Roboto", sans-serif;
+	color: var(--backgroud-color);
+}
 
-	position: relative;
-	width: 1440px;
-	height: 2074px;
-	text-transform: uppercase;
+:root {
+	--secondary-font: "Raleway", sans-serif;
+	--background-color: #2e2f42;
+	--main-text-color: #434455;
+	--logo-span-color: #4d5ae5;
+	--link-hover-color: #404bbf;
+	--hero-title-color: #ffffff;
+	--footer-logo-color: #f4f4fd;
+	--footer-text-color: #e7e9fc;
 }
