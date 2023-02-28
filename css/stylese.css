@@ -1,4 +1,7 @@
 body {
 	background-color: #ffffff;
-}
 
+	position: relative;
+	width: 1440px;
+	height: 2074px;
+}
