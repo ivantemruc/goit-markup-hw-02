@@ -2,6 +2,10 @@
 	color: #4d5ae5;
 }
 
-.header-logo {
-	text-decoration-color: #434455;
+header-logo {
+	position: absolute;
+	width: 153px;
+	height: 24px;
+	left: 940px;
+	top: 24px;
 }
