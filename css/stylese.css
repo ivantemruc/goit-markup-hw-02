@@ -20,3 +20,8 @@ body {
 .navigation-list-link {
 	list-style: none;
 }
+button {
+	background-color: #4d5ae5;
+	cursor: pointer;
+	column-fill: initial;
+}
