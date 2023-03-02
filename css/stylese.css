@@ -2,13 +2,14 @@
 	color: #4d5ae5;
 }
 
+body {
+	font-family: "Roboto";
+	background-color: #ffffff;
 
+	color: #434455;
+	font-size: ;
+}
 
-
-body {font-family: 'Roboto';
-background-color: #FFFFFF ;
-
-color: #434455;
-font-size: ;}
-
-.menu-list {menu style: none;}
+.item {
+	list-style: none;
+}
