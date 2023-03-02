@@ -13,5 +13,10 @@ body {
 .item {
 	list-style: none;
 }
-.menu-list {list-style: none;}
+.menu-list {
+	list-style: none;
+}
 
+.navigation-list-link {
+	list-style: none;
+}
