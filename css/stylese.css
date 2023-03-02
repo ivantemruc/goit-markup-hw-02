@@ -13,6 +13,5 @@ body {
 .item {
 	list-style: none;
 }
-.menu-item {
-	list-style: none;
-}
+.menu-list {list-style: none;}
+
