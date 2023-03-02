@@ -9,3 +9,12 @@ header-logo {
 	left: 940px;
 	top: 24px;
 }
+
+body {font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+
+color: #434455;}
