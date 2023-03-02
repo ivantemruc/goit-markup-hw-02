@@ -1,4 +1,7 @@
 :hover {
-	color: #4D5AE5;
+	color: #4d5ae5;
 }
 
+.header-logo {
+	text-decoration-color: #434455;
+}
