@@ -20,19 +20,21 @@ body {
 .navigation-list-link {
 	list-style: none;
 }
-	
-
-.menu-item all {background-color: #404BBF; }
-
-.menu-item website {background-color: #E7E9FC;}
-
-.menu-item app {background-color:#E7E9FC ;}
-
-.menu-item design {background-color:#E7E9FC ;}
-
-.menu-item marketing {background-color: #E7E9FC;}
-
-footer {background-color: #2E2F42; color: #E7E9FC;}
 
 
-.page-navigation {}
+
+
+.page-navigation {: 93px
+	Y: 0px
+	W: 116px
+	H: 48px
+	Corner radius: 4px
+	X constraint: Left
+	Y constraint: Top
+	Fill Color Style: CLOUD
+	Fill: Solid
+	#F4F4FD
+	Stroke: Solid
+	#E7E9FC
+	Align: Inside
+	Width: 1px}
