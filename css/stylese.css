@@ -20,8 +20,14 @@ body {
 .navigation-list-link {
 	list-style: none;
 }
-button {
-	background-color: #4d5ae5;
-	cursor: pointer;
-	column-fill: initial;
-}
+	
+
+.menu-item all {background-color: #404BBF; }
+
+.menu-item website {background-color: #E7E9FC;}
+
+.menu-item app {background-color:#E7E9FC ;}
+
+.menu-item design {background-color:#E7E9FC ;}
+
+.menu-item marketing {background-color: #E7E9FC;}
