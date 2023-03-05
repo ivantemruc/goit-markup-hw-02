@@ -22,4 +22,8 @@ body {
 	list-style: none;
 }
 
-
+.menu-item {color:#E7E9FC;
+	
+}
+.menu-item:active { color:#404BBF}
+	
