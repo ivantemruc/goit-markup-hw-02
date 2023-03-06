@@ -21,18 +21,7 @@ body {
 
 footer {background-color: #2E2F42; color: #ffffff;}
 
-button-all {background-color: ##404BBF;; color: #FFFFFF;}
+button {background: #F4F4FD;
+	border: 1px solid #E7E9FC;}
 
-.button:hover {
-	background: color #404BBF;
-	transition: 0.7s;
-}
-.button:focus {
-    outline-color: transparent;
-    outline-style:solid;
-  
-}
-
-.button:active {
-    background-color: #ffbf00;
-}
+.button:hover {background-color:#404BBF ;}
