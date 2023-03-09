@@ -8,6 +8,7 @@ body {
 
 .item {
 	list-style: none;
+
 }
 .menu-list {
 	list-style: none;
@@ -16,9 +17,182 @@ body {
 
 .navigation-list-link {list-style: none;}
 
-footer {background-color: #2E2F42; color: #ffffff;}
+footer {background-color: #2E2F42; color: #ffffff;
+	position: absolute;
+width: 1440px;
+height: 310px;
+left: 0px;
+top: 1764px;
+
+}
+
+.menu-list-btns {display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 24px;
+	
+	position: absolute;
+	width: 586px;
+	height: 48px;
+	left: 427px;
+	top: 168px;
+	
+	background: #FFFFFF;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
 
 button {background: #F4F4FD;
-	border: 1px solid #E7E9FC;}
+	border: 1px solid #E7E9FC;
+	
+}
+
+	
 
 .button:hover {background-color:#404BBF ;}
+
+.navigation-list-link1 {box-sizing: border-box;
+
+	position: absolute;
+	width: 360px;
+	height: 420px;
+	left: 156px;
+	top: 288px;
+list-style: none;}
+
+.navigation-list-link2 {
+	box-sizing: border-box;
+	
+	position: absolute;
+	width: 360px;
+	height: 420px;
+	left: 540px;
+	top: 288px;list-style: none;}
+
+.navigation-list-link3	{box-sizing: border-box;
+
+position: absolute;
+width: 360px;
+height: 420px;
+left: 924px;
+top: 288px;list-style: none;}
+
+
+.navigation-list-link4 {box-sizing: border-box;
+
+position: absolute;
+width: 360px;
+height: 420px;
+left: 156px;
+top: 756px;list-style: none;}
+
+.navigation-list-link5 {box-sizing: border-box;
+
+	position: absolute;
+	width: 360px;
+	height: 420px;
+	left: 540px;
+	top: 756px;list-style: none;
+
+}
+
+.navigation-list-link6 {box-sizing: border-box;
+
+	position: absolute;
+	width: 360px;
+	height: 420px;
+	left: 924px;
+	top: 756px;list-style: none;
+
+}
+
+.navigation-list-link7 {box-sizing: border-box;
+
+	position: absolute;
+	width: 360px;
+	height: 420px;
+	left: 156px;
+	top: 1224px;list-style: none;
+
+}
+
+.navigation-list-link8 {box-sizing: border-box;
+
+	position: absolute;
+	width: 360px;
+	height: 420px;
+	left: 540px;
+	top: 1224px;list-style: none;
+
+}
+
+.navigation-list-link9 {box-sizing: border-box;
+
+	position: absolute;
+	width: 360px;
+	height: 420px;
+	left: 924px;
+	top: 1224px;list-style: none;
+
+}
+
+.header-list {position: absolute;
+	width: 261px;
+	height: 24px;
+	left: 347px;
+	top: 24px;
+	display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+}
+
+.header-link-studio {font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	
+width: 48px;
+height: 24px;text-decoration: none;
+
+}
+.header-link-portfolio {font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;width: 66px;
+	height: 24px;text-decoration: none;
+
+}
+
+.header-link-contacts {font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;width: 67px;
+	height: 24px; text-decoration: none;
+
+}
+
+
+
+.header-contacts-mail {
+	position: absolute;
+	width: 153px;
+	height: 24px;
+	left: 940px;
+	top: 24px;text-decoration: none;
+
+}
+
+.header-contacts-tel {
+	position: absolute;
+	width: 151px;
+	height: 24px;
+	left: 1133px;
+	top: 24px;text-decoration: none;
+
+}
