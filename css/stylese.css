@@ -31,7 +31,9 @@ color: #2E2F42;
 	
 
 
-.navigation-list-link {list-style: none;}
+.navigation-list-link { margin-top: 10px;
+	margin-left: 50px;
+	list-style: none;}
 
 footer {background-color: #2E2F42; color: #ffffff;
 	position: absolute;
@@ -45,12 +47,12 @@ top: 1764px;
 .menu-list-btns {  display: flex;
 	padding: 0px;
 	list-style: none;
-	
-	
-	}
 
- 
-	position: absolute;
+
+	
+	
+{
+position: absolute;
 	width: 261px;
 	height: 24px;
 	left: 347px;
@@ -65,6 +67,7 @@ top: 1764px;
 
 .button1 {width: 69px;
 height: 48px;
+
 }
 .button2 {width: 116px;
 	height: 48px;
