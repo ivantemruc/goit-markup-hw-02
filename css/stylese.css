@@ -1,235 +1,107 @@
-body {
-	font-family: "Roboto";
-	background-color: #ffffff;
-
-	color: #434455;
-	font-size: ;
-}
-
-.item {
-	list-style: none;
-
-}
-.menu-list {
-	list-style: none;
-	
-}
-
-.header-logo {
-font-family: 'Raleway', sans-serif;
-font-weight: 800;
-font-size: 18px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #4D5AE5;
-text-decoration: none;
-}
-.header-logo-span {
-color: #2E2F42;
-}
-	
-
-
-.navigation-list-link { margin-top: 10px;
-	margin-left: 50px;
-	list-style: none;}
-
-footer {background-color: #2E2F42; color: #ffffff;
-	position: absolute;
-width: 1440px;
-height: 310px;
-left: 0px;
-top: 1764px;
-
-}
-
-.menu-list-btns {  display: flex;
-	padding: 0px;
-	list-style: none;
-
-
-	
-	
-{
-position: absolute;
-	width: 261px;
-	height: 24px;
-	left: 347px;
-	top: 24px;
-
-}
-
-
-	
 
 
 
-.button1 {width: 69px;
-height: 48px;
-
-}
-.button2 {width: 116px;
-	height: 48px;
-
-}
-
-.button3 {
-	width: 78px;
-	height: 48px;
-
-}
-.button4 {
-	width: 101px;
-	height: 48px;
-	
-}
-
-.button5 {
-	width: 126px;
-	height: 48px;
-	
-	
-
-}
-
-.navigation-list-link1 {box-sizing: border-box;
-
-	position: absolute;
-	width: 360px;
-	height: 420px;
-	left: 156px;
-	top: 288px;
-list-style: none;}
-
-.navigation-list-link2 {
-	box-sizing: border-box;
-	
-	position: absolute;
-	width: 360px;
-	height: 420px;
-	left: 540px;
-	top: 288px;list-style: none;}
-
-.navigation-list-link3	{box-sizing: border-box;
-
-position: absolute;
-width: 360px;
-height: 420px;
-left: 924px;
-top: 288px;list-style: none;}
 
 
-.navigation-list-link4 {box-sizing: border-box;
 
-position: absolute;
-width: 360px;
-height: 420px;
-left: 156px;
-top: 756px;list-style: none;}
 
-.navigation-list-link5 {box-sizing: border-box;
 
-	position: absolute;
-	width: 360px;
-	height: 420px;
-	left: 540px;
-	top: 756px;list-style: none;
 
-}
 
-.navigation-list-link6 {box-sizing: border-box;
 
-	position: absolute;
-	width: 360px;
-	height: 420px;
-	left: 924px;
-	top: 756px;list-style: none;
 
-}
+.adress {position: absolute;
+    width: 261px;
+    height: 24px;
+    left: 347px;
+    top: 24px;}
 
-.navigation-list-link7 {box-sizing: border-box;
 
-	position: absolute;
-	width: 360px;
-	height: 420px;
-	left: 156px;
-	top: 1224px;list-style: none;
 
-}
 
-.navigation-list-link8 {box-sizing: border-box;
 
-	position: absolute;
-	width: 360px;
-	height: 420px;
-	left: 540px;
-	top: 1224px;list-style: none;
 
-}
 
-.navigation-list-link9 {box-sizing: border-box;
 
-	position: absolute;
-	width: 360px;
-	height: 420px;
-	left: 924px;
-	top: 1224px;list-style: none;
 
-}
 
-.header-list {position: absolute;
-	
-}
-.header-link-studio {
-	
-	
-	width: 48px;
-height: 24px;
-text-decoration: none;
-
-flex: none;
-}
-.header-link-portfolio {
-	
-	line-height: 24px;width: 66px;
-	height: 24px;
-text-decoration: none;
-
-}
-
+.header-link-studio,
+.header-link-portfolio,
 .header-link-contacts {
-	;width: 67px;
-	height: 24px;
-text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
-
-
-
-.header-contacts-mail {
-	position: absolute;
-	width: 153px;
-	height: 24px;
-	left: 940px;
-	top: 24px;
-	
-	
-	text-decoration: none;
-
+.header-link-studio:hover,
+.header-link-studio:focus,
+.header-link-portfolio:hover,
+.header-link-portfolio:focus,
+.header-link-contacts:hover,
+.header-link-contacts:focus {
+    color: #404BBF;
 }
-
+.header-contacts-mail,
 .header-contacts-tel {
-	position: absolute;
-	width: 151px;
-	height: 24px;
-	left: 1133px;
-	top: 24px;
-	
-	
-	
-	text-decoration: none;
-
-
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
+.header-contacts-mail:hover,
+.header-contacts-mail:focus,
+.header-contacts-tel:hover,
+.header-contacts-tel:focus {
+    color: #404BBF;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.filter-button {
+    padding: 12px 24px;
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    cursor: pointer;
+}
+.filter-button:hover,
+.filter-button:focus {
+    background: #404BBF;
+    border-color: #404BBF;
+    color: #FFFFFF;
 
